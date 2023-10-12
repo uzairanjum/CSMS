@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hellogpt"
+version = "0.1.0"
+description = "CRM lead genration bot"
+authors = ["Uzair Anjum <rajpoot.waryah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.103.2"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
